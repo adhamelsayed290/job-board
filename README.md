@@ -55,10 +55,11 @@ It allows companies to post new job listings, and users to search for jobs by ti
    composer install
    ```
    
-2. **Copy .env file and generate app key**:
-   ```bash cp .env.example .env
-php artisan key:generate
-```
+2.**Copy .env file and generate app key**:
+  ```bash
+  cp .env.example .env        
+  php artisan key:generate
+  ```
 
 
 3. **Run migrations and seeders**:  
